@@ -33,7 +33,6 @@ function App() {
     }
     setResult([""]);
     setErrors(null);
-    console.time();
     startTransition(() => {
       setResult(
         findOptimalPath(
@@ -43,7 +42,6 @@ function App() {
         ) as PouringFinderType
       );
     });
-    console.timeEnd();
   };
   return (
     <>

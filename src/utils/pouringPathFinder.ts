@@ -30,7 +30,7 @@ export function checkIfPossible(x: number, y: number, z: number) {
 }
 export function checkIfValid(x: number, y: number, z: number) {
   if (!Number.isInteger(x) || !Number.isInteger(y))
-    return ["You must provide an integer"];
+    return ["Both entry jugs must be an integer"];
   if (x <= 0 || y <= 0) return ["Values must be greater than 0"];
   if (x < z && y < z) {
     return ["Values must be greater or equal to desired amount"];
@@ -46,9 +46,8 @@ export function pouringPathFinder(
   const bucketX = new Bucket(x);
   const bucketY = new Bucket(y);
   const isValid = checkIfValid(x, y, z);
-  console.log(isValid);
-  if (!checkIfPossible(x, y, z)) return ["Not possible"];
   if (Array.isArray(isValid)) return [isValid[0]];
+  if (!checkIfPossible(x, y, z)) return ["Not possible"];
 
   const acc1: resultType = [];
   const chekcIfBreak = () =>

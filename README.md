@@ -1,5 +1,7 @@
 # Water Jug Pouring Puzzle
 
+### Explanation
+
 By proving two capacities (x,y) the algorith should return a desired amount of water pouring, emptying or filling.
 
 ---

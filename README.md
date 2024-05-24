@@ -47,6 +47,8 @@ This will eventually find a path to desired amount, but depending on the choosen
 So, in the code there are 2 functions pouringPathFinder `pouringPathFinder()` and `
 findOptimalPath()` . The second one runs twice the first function and checks wich output has smaller output size and return it.
 
+The algorithm has a computational cost of O(N + M)
+
 ##### Example
 
 X = 10;

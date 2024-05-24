@@ -2,7 +2,7 @@
 
 ### Explanation
 
-By proving two capacities (x,y) the algorith should return a desired amount of water pouring, emptying or filling.
+Providing two capacities (X, Y) the algorith should return a desired amount(Z) of water by pouring, emptying or filling.
 
 ---
 

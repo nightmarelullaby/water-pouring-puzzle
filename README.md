@@ -21,7 +21,7 @@ By proving two capacities (x,y) the algorith should return a desired amount of w
 
 ### Tests
 
-Once you install all dependencies you can make `npm run vitest`. This will run several unit tests.
+Once you install all dependencies you can make `npm run test`. This will run several unit tests.
 
 ---
 

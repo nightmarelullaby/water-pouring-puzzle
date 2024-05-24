@@ -103,4 +103,7 @@ describe("Water Pouring Function", () => {
       "Both entry jugs must be an integer",
     ]);
   });
+  test("(2, 4, 4) ---> [0, 4] Output should be 1 step because is the shortest ", () => {
+    expect(findOptimalPath(10, 4, 4, true)).toStrictEqual([[0, 4]]);
+  });
 });

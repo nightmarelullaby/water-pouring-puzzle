@@ -15,7 +15,7 @@ By proving two capacities (x,y) the algorith should return a desired amount of w
 
 ---
 
-### Live Demo 🚀 [water-pouring-puzzle-nine.vercel.app](https://water-pouring-puzzle-nine.vercel.app/ "https://water-pouring-puzzle-nine.vercel.app")
+### [Live Demo 🚀](https://water-pouring-puzzle-nine.vercel.app/ "https://water-pouring-puzzle-nine.vercel.app")
 
 ---
 

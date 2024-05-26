@@ -21,7 +21,7 @@ Providing two capacities (X, Y) the algorith should return a desired amount(Z) o
 
 ### Tests
 
-Once you install all dependencies you can make `npm run test`. This will run several unit tests.
+Once you install all dependencies you can do `npm run test`. This will run several unit tests.
 
 ---
 
